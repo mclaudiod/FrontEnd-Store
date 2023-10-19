@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logo">
+        </a>
+    </header>
+
+    <nav class="nav">
+        <a class="nav__link" href="index.html">Store</a>
+        <a class="nav__link" href="aboutus.html">About Us</a>
+    </nav>
+
+    <main class="container">
+        <h1>React JS</h1>
+
+        <div class="tshirt">
+            <img class="tshirt__img" src="img/3.jpg" alt="Product Image">
+
+            <div class="tshirt__content">
+                <p class="tshirt__content--txt">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin porta pretium felis, ac semper nulla pellentesque sed. Morbi condimentum mauris orci. In blandit et dolor vel consequat. Cras urna odio, euismod sit amet mauris a, varius dignissim neque.</p>
+
+                <form class="form">
+                    <select class="form__field">
+                        <option disabled selected>-- Select Size --</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>2XL</option>
+                        <option>3XL</option>
+                    </select>
+
+                    <input class="form__field" type="number" placeholder="Quantity" min="1">
+                    <input class="form__submit" type="submit" value="Add to cart">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Front End Store - All rights reserved</p>
+    </footer>
+</body>
+</html> 
